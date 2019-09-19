@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+   <div class="grid-container">
+        <div class="menu-icon">
+                <a href="#"><img style="height: 50px; width: 50px" src="images/hamburger-buutton.svg"> </a>
+            </div>
+
+            <div class="nav-dropdown">
+                <a href="#"><img style="height: 20px; width: 30px" src="images/caret-down.svg"></a>
+            </div>
+       <header class="header">
+        
+        <div class="header-list">
+                 <div class="header-items">
+                     <div>
+                         <img style="height:8px; width:8px;" src="images/square-shape-shadow.svg">
+                     </div>
+                       <a href="#">Production</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                    <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                            </div>
+                        <a href="#">Purchase</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                                </div>
+                        <a href="#">Inventory</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                            </div>
+                        <a href="#">WMS</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                            </div>
+                        <a href="#">CRM</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                            </div>
+                        <a href="#">Sales</a>
+                    </div>
+                    <div class="header-items">
+                            <div>
+                                <img style="height:8px; width:8px" src="images/square-shape-shadow.svg">
+                            </div>
+                        <a href="#">More</a>
+                    </div>
+        </div>
+           <div class="nav-icons">
+               <div class="nav-img">
+                  <a href="#"><img style="width:20px; height:20px;" src="images/search.svg"></a> 
+               </div>
+               <div class="nav-img">
+                   <a href="#"><img style="width:20px; height:20px;" src="images/notification.svg"></a> 
+               </div>
+               <div class="nav-img">
+                   <a href="#"><img style="width:20px; height:20px;" src="images/menu.svg"></a>
+               </div>
+           </div>
+       </header>
+       <aside class="sidenav">
+
+            <div class="sidenav__close-icon">
+                    <a href="#"><img style="height: 50px; width: 50px" src="images/menu-white.svg"> </a>
+                </div>
+    
+           
+            <img style="width:100%; max-height: 100%;" src="images/updated.svg">
+
+        <div style="margin-top:-200px; color:white; margin-right: 80px; text-align:center">
+            <img style="height: 90px; width:80px" src="images/profile-photo.png">
+            <p><b>Busayo Dawodu</b></p>
+            <p>Nigeria</p>
+            </div>
+           <ul class="sidenav-list">
+              <li class="list-item current">
+                <div>
+                    <img style="height:20px; width:20px" src="images/pallete-purple.svg">
+                </div>  
+                <a href="#"> Dashboard</a></li> 
+              <li class="list-item">
+                  <div>
+                      <img style="height:20px; width:20px" src="images/calendar.svg">
+                  </div>
+                  <a href="#">Calender</a></li> 
+              <li class="list-item">
+                  <div>
+                      <img style="height:20px; width:20px" src="images/pie-chart.svg">
+                  </div>
+                <a href="#">Project Report</a></li> 
+              <li class="list-item">
+                  <div>
+                      <img style="height:20px; width:20px" src="images/folder.svg">
+                  </div>
+                <a href="#">Collection</a></li> 
+              <li class="list-item">
+                <div>
+                    <img style="height:20px; width:20px" src="images/review.svg">
+                </div>  
+                <a href="#">Feedback</a></li> 
+              <li class="list-item">
+                <div>
+                    <img style="height:20px; width:20px" src="images/star.svg">
+                </div>  
+                <a href="#">Call rating</a></li> 
+           </ul>
+
+       </aside>
+       <main class="main">
+            <div class="main-header">
+                    <div class="main-header__heading">
+                        <div>
+                            <img style="height:20px; width: 20px" src="images/calendar-white.svg">
+                        </div>
+                        <div>
+                        <p>Dashboard</p>
+                    </div>
+                    </div>
+                    
+                    <!-- <div class="main-header__updates"> -->
+                            <div class="header-icon">
+                                <div class="hd-img">
+                                   <a href="#"><img style="height:20px;width:20px" src="images/man-user.svg"></a> 
+                                </div>
+                                <div class="hd-img">
+                                   <a href="#"><img style="height:20px;width:20px" src="images/notepad.svg"></a> 
+                                </div>
+                                <div class="hd-img">
+                                    <a href="#"><img style="height:20px;width:20px" src="images/money.svg"></a> 
+                                </div>
+                                  
+                                <div class="hd-img">
+                                   <a href="#"> <img style="height:20px;width:20px" src="images/car-front.svg"></a>
+                                
+                                </div>
+                                <div class="hd-img">
+                                    <a href="#"><img style="height:20px;width:20px" src="images/pallete.svg"></a>
+                                
+                                </div>
+
+
+                                <div class="hd-img">
+                                   <a href="#"><img style="height:20px;width:20px" src="images/list.svg"></a> 
+                                </div>
+                                   
+                           
+                    <!-- </div> -->
+                  
+                    
+                  </div>
+                
+            </div>    
+
+                <div class="main-cards">
+                        <div class="card-one">
+                            <div class="card-nav">
+                                <div>
+                                    <b>Sale</b>
+                                </div>
+                                <div class="month">
+                                   <p>This month</p>
+                                   <dv>
+                                     <a href="#"><img style="height: 10px; width:10px; margin-left: 5px;" src="images/down-arrow.svg">
+                                     </dv></a>  
+                                </div>
+                            </div>
+                            <img style="max-height: 60%; width:60%" src="images/chart-pie-chart-pngrepo-com.png">
+                        </div>
+                        <div class="card-two">
+                                <div class="card-nav">
+                                        <div>
+                                            <b>Payments</b>
+                                        </div>
+                                        <div class="month">
+                                           <p>This month</p>
+                                           <dv>
+                                               <a href="#"><img style="height: 10px; width:10px; margin-left: 5px;" src="images/down-arrow.svg"></a>
+                                           </dv>
+                                        </div>
+                                    </div>
+                                    <img style="height: 80%; width:100%" src="images/basic-bar-chart-column-chart.svg">
+                        </div>
+                        <div class="card-three">
+                            <div class="card-nav">
+                                    <b>Activities</b>
+                            </div>
+                            <div class="act-header birthday-arrow">
+                                <div>
+                                    <img style="height: 35px; width:35px" src="images/oval (1).png">
+                                </div>
+                                <div>
+                                    <img style="height: 20px; width: 20px; position:relative; right: 28px" src="images/crown.svg">
+                                </div>
+                                <div>
+                                    <p><b>Birthday</b></p>
+                                </div>
+                                <div style="margin-left:auto" class="birthday-arrow">
+                                    <a href="#"><img style="height:10px; width:10px" src="images/down-arrow.svg"></a>
+                                </div>
+                            </div>
+                            <div class="card-three-content">
+                                <div class="three-content">
+                                    <div>
+                                            <img style="width:45px;height: 45px" src="images/female-profile.png">
+                                    </div>
+                                    <div class="three-par">
+                                        <p style="font-size:18px; margin:0">Shilpa Rao</p>
+                                        <p style="font-size:12px; margin:0">Today</p>
+                                    </div>
+                                </div>
+                                <div class="three-content">
+                                    <div>
+                                            <img style="width:45px;height: 45px" src="images/glasses-profile.png">
+                                    </div>
+                                    <div class="three-par">
+                                        <p style="font-size:18px; margin:0">Prajakta Patil</p>
+                                        <p style="font-size:12px; margin:0">Today</p>
+                                    </div>
+                                </div>
+                                <div class="three-content">
+                                    <div>
+                                            <img style="width:45px;height: 45px" src="images/shineteeth-profile.png">
+                                    </div>
+                                    <div class="three-par">
+                                        <p style="font-size:18px; margin:0">Hemlata Gaikwad</p>
+                                        <p style="font-size:12px; margin:0">Today</p>
+                                    </div>
+                                </div>
+                                <div class="three-content">
+                                    <div>
+                                            <img style="width:45px;height: 45px" src="images/bald-profile.png">
+                                    </div>
+                                    <div class="three-par">
+                                        <p style="font-size:18px; margin:0">Sugar Daddy</p>
+                                        <p style="font-size:12px; margin:0">Today</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="meeting-class">
+                                 <div class="act-header meeting-arrow">
+                                    <div>
+                                        <img style="height: 35px; width:35px" src="images/oval (1).png">
+                                    </div>
+                                    <div>
+                                        <img style="height: 20px; width: 20px; position:relative; right: 28px" src="images/interview.svg">
+                                    </div>
+                                    <div>
+                                        <p><b>Meetings</b></p>
+                                    </div>
+                                    <div style="margin-left:auto" class="meeting-arrow">
+                                        <a href="#"><img style="height:10px; width:10px" src="images/down-arrow.svg"></a>
+                                    </div>
+
+                                   
+                                </div>
+                                <div class="meeting-content">
+                                        <div class="tick-tock">
+                                            <div>
+                                                <img style="height: 10px; width:10px" src="images/tick.svg">
+                                            </div>
+                                            <div>
+                                                <p style="font-size:15px; margin-left:15px; color:	#A9A9A9">Sales team meeting 10:00am</p>
+                                            </div>
+                                        </div>
+                                        <div class="tick-tock">
+                                            <div>
+                                                <img style="height: 10px; width:10px" src="images/tick.svg">
+                                            </div>
+                                            <div>
+                                                <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Design team meeting for latest update</p>
+                                            </div>
+                                        </div>
+                                        <div class="tick-tock">
+                                            <div>
+                                                <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/tick.svg">
+                                            </div>
+                                            <div>
+                                                <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Sales team meeting 10:00am</p>
+                                            </div>
+                                        </div>
+                                        <div class="tick-tock">
+                                            <div>
+                                                <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/tick.svg">
+                                            </div>
+                                            <div>
+                                                <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Design team meeting for latest update</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                           
+                            </div>
+                            <div class="notification">
+                                <div class="act-header notification-note">
+                                    <div>
+                                        <img style="height: 35px; width:35px" src="images/oval (1).png">
+                                    </div>
+                                    <div>
+                                        <img style="height: 20px; width: 20px; position:relative; right: 28px" src="images/notification-beige.svg">
+                                    </div>
+                                    <div>
+                                        <p><b>Notifications</b></p>
+                                    </div>
+                                    <div style="margin-left:auto" class="notification-note">
+                                        <a href="#"><img style="height:10px; width:10px" src="images/down-arrow.svg"></a>
+                                    </div>
+                                </div>
+
+                                <div class="notification-content">
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Daniel paid for the shoes 10:00am</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Samuel placed orders 11:23pm</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Favour completed a purchase of yeezy 12:30 am</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Smart paid for his house 2:00 am</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Edidiong walks to the door 7:00pm</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Justina travelled to Abuja 8:30am</p>
+                                        </div>
+                                    </div>
+                                    <div class="tick-tock">
+                                        <div>
+                                            <img style="height: 10px; width:10px;color:	#A9A9A9" src="images/notification-content.svg">
+                                        </div>
+                                        <div>
+                                            <p style="font-size:15px; margin-left:15px;color:	#A9A9A9">Salami visited the store 4:37am</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="card-four">
+                            <div>
+                                    <b>Latest Ratings & Reviews</b>
+                            </div>
+                            <div class="four-content">
+                                <div>
+                                    <p>1. Mr John James</p>
+                                </div>
+                                <div class="ratings">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                </div>
+
+                            
+                            </div>
+                            <p id="content-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            <hr>
+                            <div class="four-content">
+                                    <div>
+                                        <p>1. Mr John James</p>
+                                    </div>
+                                    <div class="ratings">
+                                            <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                            <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                            <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                            <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                            <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                    </div>
+    
+                                
+                                </div>
+                                <p id="content-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <hr>
+                                 <div class="four-content">
+                                <div>
+                                    <p>1. Mr John James</p>
+                                </div>
+                                <div class="ratings">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                        <img style="height:10px; width:10px" src="images/star-gold.svg">
+                                </div>
+
+                            
+                            </div>
+                            <p id="content-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        </div>
+                        <div class="card-five">
+                            <div>
+                                    <b>Top Sellings Products</b>
+                                <div class="scroll">
+                                        <div class="product-content">
+                                                <div>
+                                                    <p>1. Product Name here</p>
+                                                </div>
+                                                <div>
+                                                    <p>15</p>
+                                                </div>
+                                                <div>
+                                                    <p>14999/-</p>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        <div class="product-content">
+                                                    <div>
+                                                        <p>2. Product Name here</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>15</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>14999/-</p>
+                                                    </div>
+                                        </div>
+                                                <hr>
+                                        <div class="product-content">
+                                                        <div>
+                                                            <p>3. Product Name here</p>
+                                                        </div>
+                                                        <div>
+                                                            <p>15</p>
+                                                        </div>
+                                                        <div>
+                                                            <p>14999/-</p>
+                                                        </div>
+                                        </div>
+                                                    <hr>
+                                        <div class="product-content">
+                                                            <div>
+                                                                <p>4. Product Name here</p>
+                                                            </div>
+                                                            <div>
+                                                                <p>15</p>
+                                                            </div>
+                                                            <div>
+                                                                <p>14999/-</p>
+                                                            </div>
+                                        </div>
+                                                    <hr>
+                                                    <div class="product-content">
+                                                            <div>
+                                                                <p>5. Product Name here</p>
+                                                            </div>
+                                                            <div>
+                                                                <p>15</p>
+                                                            </div>
+                                                            <div>
+                                                                <p>14999/-</p>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>6. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>7. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>8. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>9. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>10. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>11. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>12. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>13. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>14. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>15. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>16. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>17. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>18. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>19. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>20. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>21. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>22. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        <div class="product-content">
+                                                                <div>
+                                                                    <p>23. Product Name here</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>15</p>
+                                                                </div>
+                                                                <div>
+                                                                    <p>14999/-</p>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                
+                                </div>
+                                   
+                            </div>
+                          
+                        </div>
+                </div>
+       </main>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>
